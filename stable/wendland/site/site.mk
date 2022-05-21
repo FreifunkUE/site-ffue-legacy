@@ -26,6 +26,9 @@ GLUON_SITE_PACKAGES := \
     gluon-status-page \
     haveged \
     iptables \
+    tecff-autoupdater-wifi-fallback \
+    ffue-banner \
+    gluon-ssid-changer \
     iwinfo
 
 ##	DEFAULT_GLUON_RELEASE

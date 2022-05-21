@@ -5,7 +5,7 @@
 #		The gluon-mesh-batman-adv-* package must come first because of the dependency resolution
 
 GLUON_SITE_PACKAGES := \
-    gluon-mesh-batman-adv-14 \
+    gluon-mesh-batman-adv-15 \
     gluon-respondd \
     gluon-autoupdater \
     gluon-config-mode-autoupdater \
@@ -27,6 +27,9 @@ GLUON_SITE_PACKAGES := \
     gluon-status-page \
     haveged \
     iptables \
+    tecff-autoupdater-wifi-fallback \
+    ffue-banner \
+    gluon-ssid-changer \
     iwinfo
 
 ##	DEFAULT_GLUON_RELEASE

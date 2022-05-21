@@ -1,0 +1,32 @@
+Release Notes for gluon-ffue-@@RELEASE@@
+========================================
+
+This Freifunk Firmware is based on Gluon v2017.1.8 (1.06.x)
+or v2018.2.4 (1.07.x) or v2021.1 (1.4.x) and
+includes some additional modules.
+
+   1.06.x: v2017.1.8 based, fastd
+   1.07.x: v2018.2.x based, L2TP (tunneldigger)
+   1.4.0:  v2020.2.x based, L2TP (tunneldigger)
+
+ - gluon-ssid-changer
+
+   See https://github.com/Freifunk-Nord/gluon-ssid-changer/tree/2018.1.x -- for commit etc. see modules file
+
+ - ffue-banner
+
+   Supplies a pimped motd file, including info about the HW, the OS and the FW version
+
+ - tecff-autoupdater-wifi-fallback
+
+   On prolonged lack of connectivity to the mesh, search for freifunk SSIDs and
+   try to become a wireless client, then force autoupdate.
+
+ - gluon-tunneldigger-watchdog
+
+   Script that checks every five minutes for the presence of the tunneldigger process,
+   restarting it if neccessary.
+
+
+Further Build Information:
+==========================
